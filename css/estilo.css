@@ -1,0 +1,100 @@
+*{/*selector-universal*/
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	width: 100%;
+	margin-top: auto;
+}
+footer .sociales{
+	display: flex;
+}
+.sociales a:hover{
+	background: rgb(44, 44, 44);
+}
+a{
+	padding: 12px 20px;
+}
+.menu nav div img{
+	width: 30px;
+	border-radius: 50%;
+}
+a{
+	text-decoration: none; /*le quita lo subrayado*/
+	font-size: 20px; /*tamanio de letra*/
+	color: white; /*cambio de color*/
+	padding: 12px 20px;
+	display: block;
+}
+.menu{
+	background: #00BFFF;
+}
+.menu nav{
+	display: flex;
+	justify-content: space-around;
+}
+.menu nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.menu nav ul li ul{
+	display: flex;
+	flex-direction: column;
+}
+.menu nav ul li ul{
+	position: absolute;
+	background: #008A93;
+}
+.menu nav ul li ul li{
+	width: 180px;
+	position: relative;
+}
+.menu nav ul li ul li ul{
+	top: 0;
+	left: 180px;
+	position: absolute;
+}
+.menu nav ul li ul{
+	display: none;
+}
+.menu nav ul li:hover > ul{
+	display: block;
+}
+
+#menulateral .icono{
+	position: absolute;
+	left: 230px;
+	top: 10px;
+	cursor: pointer;
+}
+.logo{
+	border-radius: 50%;
+	width: 30%;
+}
+#menulateral .icono span{
+	color: white;
+	font-size: 20px;
+}
+#menulateral ul li{
+	color: white;
+	text-align: center;
+	padding: 1px 1px;
+	list-style: none;
+	border-bottom: 1px solid rgb(100, 100, 100, 100);
+}
+#menulateral{
+	position: fixed;
+	width: 230px;
+	height: 100%;
+	background: #151719;
+}
+
+video{
+	text-align: center;
+}
+
+.menu nav div img{
+	border-radius: 50%;
+}
